@@ -1,0 +1,57 @@
+body
+{
+	font-family: 'Raleway' , sans-serif;
+}
+
+footer
+{
+	display: flex;
+	justify-content: space-around;
+	background: #F2F2F2 fixed repeat;
+}
+
+#activités
+{
+	display: flex;
+}
+
+.texte_gris
+{
+	color: gray;
+}
+
+.hébergements
+{
+	background: #F2F2F2 fixed;
+}
+
+#hébergements1
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+#hébergements2
+{
+	display: flex;
+	justify-content: space-around;
+}
+
+section
+{
+	display: flex;
+	justify-content: space-between;
+}
+
+aside
+{
+	background: #F2F2F2 fixed;
+	margin: auto;
+}
+
+#choix1
+{
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
