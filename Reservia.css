@@ -3,21 +3,32 @@ body
 	font-family: 'Raleway' , sans-serif;
 }
 
-footer
+header {
+	width: 100%;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+#logo {
+
+	width: 150px;
+}
+
+.menu
 {
 	display: flex;
-	justify-content: space-around;
-	background: #F2F2F2 fixed repeat;
+	justify-content: space around;
 }
 
-ul
+nav
 {
 	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
 }
 
-.texte_gris
-{
-	color: gray;
+li {
+	margin-left: 20px;
 }
 
 .filtre
@@ -28,10 +39,21 @@ ul
 	border-radius: 20px/20px;
 }
 
-.menu
+#en_ligne
 {
 	display: flex;
-	justify-content: space around;
+	justify-content: space-around;
+}
+
+section
+{
+	width: 60%;
+	display: flex inline-block;
+	justify-content: space-between;
+	align-items: center;
+	border: 1px;
+	border-radius: 20px;
+	text-align: justify;
 }
 
 .element_hébergements
@@ -75,28 +97,6 @@ ul
 	justify-content: space-around;
 }
 
-#les_activités
-{
-	display: flex;
-}
-
-#en_ligne
-{
-	display: flex;
-	justify-content: space-around;
-}
-
-section
-{
-	width: 60%;
-	display: flex inline-block;
-	justify-content: space-between;
-	align-items: center;
-	border: 1px;
-	border-radius: 20px;
-	text-align: justify;
-}
-
 aside
 {
 	display: inline-block;
@@ -106,12 +106,24 @@ aside
 	border-radius: 20px;
 }
 
-nav
+#les_activités
+{
+	display: flex;
+}
+
+ul
 {
 	list-style-type: none;
+}
+
+.texte_gris
+{
+	color: gray;
+}
+
+footer
+{
 	display: flex;
-	justify-content: space-between;
-	position: absolute;
-	top: 0px;
-	right: 0px;
+	justify-content: space-around;
+	background: #F2F2F2 fixed repeat;
 }
