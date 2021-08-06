@@ -45,15 +45,21 @@ li {
 	justify-content: space-around;
 }
 
-section
+#haut_de_page
 {
 	width: 60%;
-	display: flex inline-block;
+	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	border: 1px;
 	border-radius: 20px;
 	text-align: justify;
+}
+
+#section_hébergement
+{
+	width: 100%;
+	display: flex;
 }
 
 .element_hébergements
@@ -66,40 +72,19 @@ section
 	box-shadow: 6px 6px 6px gray;
 }
 
-.flottant
-{
-	float: ;
-	width: 100px;
-	heigh: 100px;
-	border: 1px;
-	border-radius: 20px;
-}
-
 #hébergements
 {
 	background: #F2F2F2 fixed;
-	width: 85%;
-	display: flex inline-block;
+	width: 50%;
+	display: flex;
 	justify-content: space-between;
 	border: 1px;
 	border-radius: 20px
 }
 
-#hébergements1
-{
-	display: flex;
-	justify-content: space-around;
-}
-
-#hébergements2
-{
-	display: flex;
-	justify-content: space-around;
-}
-
 aside
 {
-	display: inline-block;
+	width: 30%;
 	background: #F2F2F2 fixed;
 	margin: auto;
 	border: 1px;
