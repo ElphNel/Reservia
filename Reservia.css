@@ -1,23 +1,37 @@
 body
 {
 	font-family: 'Raleway' , sans-serif;
+	display: flex;
+	flex-direction: column;
 }
 
-header {
+
+
+
+header
+{
 	width: 100%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
 }
-#logo {
+
+#logo
+{
 
 	width: 150px;
+}
+
+.en_ligne
+{
+	display: flex;
+	justify-content: space-around;
 }
 
 .menu
 {
 	display: flex;
-	justify-content: space around;
+	justify-content: space-around;
 }
 
 nav
@@ -27,74 +41,142 @@ nav
 	justify-content: space-between;
 }
 
-li {
+li
+{
 	margin-left: 20px;
+}
+
+#section_haut_de_page
+{
+	width: 60%;
+	justify-content: space-between;
+	align-items: center;
+	border: 4px;
+	border-radius: 20px;
+}
+
+#le_filtre
+{
+	display: flex;
 }
 
 .filtre
 {
 	display: flex;
-	justify-content: space around;
-	border: 1px blue;
-	border-radius: 20px/20px;
-}
-
-#en_ligne
-{
-	display: flex;
 	justify-content: space-around;
+	border: 1px blue;
 }
 
-#haut_de_page
-{
-	width: 60%;
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border: 1px;
-	border-radius: 20px;
-	text-align: justify;
-}
+
+
+
+
+
+
 
 #section_hébergement
 {
-	width: 100%;
 	display: flex;
-}
-
-.element_hébergements
-{
-	width: 150px;
-	heigh: 150px;
-	font-size: small;
-	border: 1px gray solid;
-	border-radius: 20px;
-	box-shadow: 6px 6px 6px gray;
+	justify-content: center;
+	align-items: center;
 }
 
 #hébergements
 {
 	background: #F2F2F2 fixed;
 	width: 50%;
+	height: 35%;
 	display: flex;
 	justify-content: space-between;
 	border: 1px;
-	border-radius: 20px
+	border-radius: 20px;
+	flex-wrap: wrap;
+}
+
+.element_hébergements
+{
+	width: 10%;
+	heigh: 10%;
+	font-size: small;
+	border: 1px gray solid;
+	border-radius: 20px;
+	box-shadow: 6px 6px 6px gray;
+}
+
+.Photos_hébergements
+{
+	width: 20%;
+	height: 10%;
 }
 
 aside
 {
 	width: 30%;
+	height: 35%;
 	background: #F2F2F2 fixed;
-	margin: auto;
 	border: 1px;
 	border-radius: 20px;
 }
 
+.photo_populaire
+{
+	width: 20%;
+	height: 20%;
+}
+
+
+
+
+
+
+
+
 #les_activités
 {
 	display: flex;
+	width: 100%
 }
+
+.moyenne_images1
+{
+	flex-direction: column;
+}
+
+.grande_activité
+{
+	height: 50%;
+	width: 20%;
+}
+
+.photo_pomègue
+{
+	height: 35%;
+	width: 20%
+}
+
+.photo_frioul
+{
+	height: 20%;
+	width: 20%
+}
+
+.photo_garde
+{
+	height: 25%;
+	width: 20%
+}
+
+.photo_longchamp
+{
+	height: 30%;
+	width: 20%
+}
+
+
+
+
+
+
 
 ul
 {
