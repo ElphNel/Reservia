@@ -1,8 +1,6 @@
 body
 {
 	font-family: 'Raleway' , sans-serif;
-	display: flex;
-	flex-direction: column;
 }
 
 
@@ -77,15 +75,18 @@ li
 #section_hébergement
 {
 	display: flex;
-	justify-content: center;
-	align-items: center;
+	flex-direction: row;
+	width: 100%;
+}
+
+#bloc_hébergement
+{
+	background: #F2F2F2;
+	width: 30%;
 }
 
 #hébergements
 {
-	background: #F2F2F2 fixed;
-	width: 50%;
-	height: 35%;
 	display: flex;
 	justify-content: space-between;
 	border: 1px;
@@ -95,25 +96,23 @@ li
 
 .element_hébergements
 {
-	width: 10%;
-	heigh: 10%;
-	font-size: small;
+	width: 30%;
+	height: 10%;
+	font-size: 14px;
 	border: 1px gray solid;
 	border-radius: 20px;
 	box-shadow: 6px 6px 6px gray;
 }
 
-.Photos_hébergements
+.photo_hébergement
 {
-	width: 20%;
-	height: 10%;
+	width: 100%;
 }
 
 aside
 {
 	width: 30%;
-	height: 35%;
-	background: #F2F2F2 fixed;
+	background: #F2F2F2;
 	border: 1px;
 	border-radius: 20px;
 }
