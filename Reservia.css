@@ -11,10 +11,11 @@ body
 
 header
 {
-	width: 100%;
+	width: 90%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	margin-left: 3%;
 }
 
 #logo
@@ -58,8 +59,49 @@ li
 	width: 60%;
 	justify-content: space-between;
 	align-items: center;
-	border: 4px;
 	border-radius: 20px;
+	margin-left: 3%;
+}
+
+#formulaire
+{
+	display: flex;
+	padding: 2px;
+	border-radius: 13px;
+	width: 350px;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+#logo_recherche
+{
+	border: 2px #F2F2F2 solid;
+	border-radius: 6px 0px 0px 6px;
+	width: 30px;
+	height: 30px;
+	background-color: #F2F2F2;
+}
+
+.fa-map-marker-alt
+{
+	margin: 7px 0px 0px 10px;
+	font-size: 14px;
+}
+
+input
+{
+	border: 2px #F2F2F2 solid;
+}
+
+label
+{
+	border: 2px #0065FC solid;
+	border-radius: 0px 6px 6px 0px;
+	font-size: 13px;
+	color: white;
+	background-color: #0065FC;
+	width: 75px;
+	padding: 7px 5px 5px 12px;
 }
 
 #le_filtre
@@ -67,50 +109,61 @@ li
 	display: flex;
 }
 
+#titre_filtre
+{
+	font-size: 10px;
+	margin: 12px 0px 0px 0px;
+}
+
+#ligne_filtre
+{
+	display: flex;
+	margin: 20px 0px 0px 0px;
+}
+
 .filtre
 {
 	display: flex;
-	justify-content: space-around;
-	height: 25px;
+	font-weight: bold;
+	font-size: 14px;
+	height: 20px;
 	border: 3px #F2F2F2 solid;
 	border-radius: 20px;
 	align-items: center;
+	margin-left: 10px;
+	padding: 4px 4px 4px 0px;
 }
 
 .fa-info-circle
 {
-	color: #0065FC;
+	background-color: #0065FC;
+	color: white;
+	border: 1px #F2F2F2 solid;
+	border-radius: 20px;
+	margin: 0px 5px 0px 0px;
 }
 
-.fa-dog
+.fa-money-bill-wave-alt, .fa-child, .fa-heart, .fa-dog
 {
 	color: #0065FC;
-}
-
-.fa-heart
-{
-	color: #0065FC;
-}
-
-.fa-child
-{
-	color: #0065FC;
-}
-
-.fa-money-bill-wave-alt
-{
-	color: #0065FC;
-	width: 2px;
-	height: 2px;
+	font-size: 12px;
 }
 
 .icones
 {
-	width: 20px;
-	height: 20px;
-	border: 1px red solid;
-	border-radius: 10px;
+	display: flex;
+	width: 30px;
+	height: 30px;
+	border-radius: 30px;
 	background-color: #DEEBFF;
+	justify-content: center;
+	align-items: center;
+	margin: 0px 0px 0px 0px;
+}
+
+.filtre_txt
+{
+	margin: 0px 4px 0px 8px;
 }
 
 
@@ -249,14 +302,19 @@ aside
 
 #les_activités
 {
-	width: 100%;
+	width: 95%;
 	margin-top: 50px;
+	margin-left: 3%;
+	margin-right: 3%;
+	border: 3px red solid;
 }
 
 #activité
 {
 	width: 100%;
 	display: flex;
+	justify-content: space-between;
+	border: 3px blue solid;
 }
 
 #Activités_à_Marseille
@@ -266,8 +324,8 @@ aside
 
 .element_activités
 {
-	width: 60%;
-	flex-wrap: wrap;
+	width: 20%;
+	border: 3px green solid;
 }
 
 .moyenne_images1
@@ -286,10 +344,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	height: 60%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 15px;
+	margin: 0px 15px 0px 0px;
 }
 
 
@@ -298,10 +356,10 @@ aside
 	
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	height: 60%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 15px;
+	margin: 0px 15px 0px 0px;
 }
 
 .grande_activité
@@ -316,10 +374,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	height: 35%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 15px;
+	margin: 0px 15px 0px 0px;
 }
 
 .photo_pomègue
@@ -333,10 +391,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	height: 17%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 65px 15px 0px 15px;
+	margin: 65px 15px 0px 0px;
 }
 
 .photo_frioul
@@ -350,10 +408,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	height: 25%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 15px;
+	margin: 0px 15px 0px 0px;
 }
 
 .photo_garde
@@ -367,10 +425,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 90%;
+	width: 100%;
 	height: 28%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 57px 15px 0px 15px;
+	margin: 57px 15px 0px 0px;
 }
 
 .photo_longchamp
@@ -394,16 +452,22 @@ footer
 {
 	width: 100%;
 	display: flex;
-	justify-content: space-around;
 	background: #F2F2F2 fixed repeat;
 }
 
 .element_footer
-
-
-ul
 {
-	list-style-type: none;
+	width: 20%;
+	font-size: 14px;
+	font-weight: bold;
+	margin: 2% 7% 5% 4%;
+}
+
+.footer_txt
+{
+	font-size: 14px;
+	font-weight: bold;
+	margin: 0px;
 }
 
 .texte_gris
