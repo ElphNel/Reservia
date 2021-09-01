@@ -3,6 +3,12 @@ body
 	font-family: 'Raleway' , sans-serif;
 }
 
+#conteneur_global
+{
+	width: 95%;
+	margin: auto;
+}
+
 
 
 
@@ -11,17 +17,15 @@ body
 
 header
 {
-	width: 90%;
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	margin-left: 3%;
 }
 
 #logo
 {
 
-	width: 150px;
+	width: 120px;
 }
 
 .en_ligne
@@ -47,6 +51,8 @@ nav
 a
 {
 	color: #0065FC;
+	text-decoration: none;
+	margin-top: 20px;
 }
 
 li
@@ -57,6 +63,17 @@ li
 	color: #0065FC;
 }
 
+#bordure_hébergement
+{
+	border-top: 3px #0065FC solid;
+}
+
+#menu_activité
+{
+	font-size: 14px;
+	font-weight: bold;
+	color: black;
+}
 
 
 
@@ -64,11 +81,9 @@ li
 
 #section_haut_de_page
 {
-	width: 60%;
 	justify-content: space-between;
 	align-items: center;
 	border-radius: 20px;
-	margin-left: 3%;
 }
 
 #formulaire
@@ -195,18 +210,16 @@ label
 {
 	display: flex;
 	flex-direction: row;
-	width: 100%;
-	justify-content: center;
 	margin-top: 20px;
 }
 
 #bloc_hébergement
 {
 	background: #F2F2F2;
-	width: 60%;
+	width: 63%;
 	border: 1px;
 	border-radius: 20px;
-	margin-right: 50px;
+	margin-right: 2.5%;
 }
 
 #hébergements
@@ -255,9 +268,14 @@ label
 	color: #0065FC;
 }
 
+#affichez_plus
+{
+	margin: 15px 0px 50px 40px;
+}
+
 aside
 {
-	width: 30%;
+	width: 33%;
 	background: #F2F2F2;
 	border: 1px;
 	border-radius: 20px;
@@ -314,11 +332,8 @@ aside
 
 #les_activités
 {
-	width: 94%;
 	height: 500px;
 	margin-top: 50px;
-	margin-left: 3%;
-	margin-right: 3%;
 }
 
 #activité
@@ -328,7 +343,7 @@ aside
 	display: flex;
 }
 
-#Activités_à_Marseille
+#Activité_à_Marseille
 {
 	margin: 0px 0px 15px 20px;
 }
@@ -355,10 +370,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 85%;
-	height: 95%;
+	width: 90%;
+	height: 100%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 0px;
+	margin: 0px;
 }
 
 
@@ -367,10 +382,10 @@ aside
 	
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 85%;
-	height: 95%;
+	width: 90%;
+	height: 100%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 0px 0px 10px;
 }
 
 .grande_activité
@@ -385,10 +400,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 85%;
-	height: 55%;
+	width: 90%;
+	height: 58%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 0px 0px 5px;
 }
 
 .photo_pomègue
@@ -402,10 +417,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 85%;
-	height: 25%;
+	width: 90%;
+	height: 30%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 65px 15px 0px 0px;
+	margin: 52px 0px 0px 5px;
 }
 
 .photo_frioul
@@ -419,10 +434,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 85%;
-	height: 35%;
+	width: 90%;
+	height: 40%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 0px 15px 0px 0px;
+	margin: 0px 0px 0px 20px;
 }
 
 .photo_garde
@@ -436,10 +451,10 @@ aside
 {
 	border: 1px white solid;
 	border-radius: 20px;
-	width: 85%;
+	width: 90%;
 	height: 47%;
 	box-shadow: 6px 6px 6px gray;
-	margin: 57px 15px 0px 0px;
+	margin: 57px 0px 0px 20px;
 }
 
 .photo_longchamp
